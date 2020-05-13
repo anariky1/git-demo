@@ -62,7 +62,6 @@ public class stepDefinition extends Utils {
 		System.out.println("git add");
 		System.out.println("git add");
 		System.out.println("git add");
-		System.out.println("newly added");
 		ResponseSpecification= new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON). build();
 		   if(method.equals("POST")){
 		      response=res.when()
